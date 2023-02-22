@@ -1,0 +1,239 @@
+#title {
+    background-color: #ff4c68;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.btn-download-android {
+    --bs-btn-color: white;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: #f8f9fa;
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #f8f9fa;
+    --bs-btn-active-border-color: #f8f9fa;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f8f9fa;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #f8f9fa;
+    --bs-gradient: none;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 3em;
+}
+
+.nav-item {
+    padding: 0 25px 0 18px;
+
+}
+
+.nav-link {
+    font-size: 1.2em;
+    font-family: 'Montserrat-Light';
+
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+
+span.navbar-collapse:first-child {
+    margin-left: 0;
+}
+
+span.navbar-collapse:last-child {
+    margin-right: 0;
+}
+
+span.navbar-collapse {
+    margin: 0 auto;
+}
+
+/* download button */
+.download-button {
+    margin: 20px 20px 20px 0px;
+}
+
+/* image title */
+.img-title {
+    width: 20%;
+    transform: rotate(25deg);
+    margin-left: 50px;
+    position: absolute;
+
+
+
+}
+
+/* features*/
+#features {
+    margin: 0px 50px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 80px 0px;
+}
+
+#features-items {
+    text-align: center;
+    padding: 7%;
+
+}
+
+#features h3 {
+    font-size: 1.5rem;
+}
+
+#features i {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #ef8172;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+
+#features p {
+    color: #8f8f8f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150;
+    margin-top: 1.5rem;
+}
+
+/* Testimonials */
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item {
+    padding: 9% 15%;
+}
+
+.testimonials-img {
+    width: 70px;
+    border-radius: 100%;
+    margin: 20px 20px 0px 20px;
+}
+
+.testimonial-img {
+    width: 70px;
+    border-radius: 100%;
+    margin: 20px 20px 0px 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.press-logo {
+    width: 15%;
+    padding: 0 20px;
+}
+
+/* pricing*/
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+#sign-up-btn {
+    --bs-btn-color: #ef8172;
+    --bs-btn-border-color: #ef8172;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #ef8172;
+    --bs-btn-hover-border-color: #ef8172;
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: #ef8172;
+    --bs-btn-active-bg: #ef8172;
+    --bs-btn-active-border-color: #ef8172;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f8f9fa;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #f8f9fa;
+    --bs-gradient: none;
+}
+
+#add-1-row {
+    padding-bottom: 24px;
+}
+
+/*  */
+@media (max-width : 964px) {
+    .img-title {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+
+}
+
+@media (max-width : 768px) {
+    #title {
+        text-align: center;
+    }
+}
+
+
+/*cta*/
+#cta {
+    background-color: #ff4c68;
+    padding: 180px 0px;
+    text-align: center;
+}
+
+#cta h3 {
+    color: white;
+}
+
+#btn-footer {
+    margin-top: 50px;
+    border-radius: 0%;
+}
+
+#footer {
+    text-align: center;
+    padding: 80px 0px;
+
+}
+
+#footer p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#icon-footers {
+    width: 200px;
+    margin: 0 auto 30px;
+}
